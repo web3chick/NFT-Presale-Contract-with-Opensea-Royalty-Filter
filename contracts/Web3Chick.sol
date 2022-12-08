@@ -1256,10 +1256,10 @@ contract Web3Chick is ERC721A, Ownable, DefaultOperatorFilterer {
   string public baseExtension = ".json";
   string public notRevealedUri;
   uint256 public cost = 0.01 ether;
-  uint256 public maxSupply = 200;
+  uint256 public maxSupply = 2000;
   uint256 public setMaxW3CPerTxn = 2; 
   uint256 public maxW3CPerWallet = 5; 
-  uint256 public totalPresaleTickets = 2000;
+  uint256 public totalPresaleTickets = 200;
   uint256 public reserve = 50;
   uint256 public reserveMinted = 0;
 
